@@ -26,7 +26,6 @@ Developed on a Wamp local server running LAMP stack. IDE used is PHP Storm.
 Initial release.
 Notes on this release:
 The plugin is not yet fully functional and only partially tested.
-More time is required to build a working plugin with the help of more contributors.
 In parts of the SQL queries contained within the two scripts I have used sprintf notation;
 ideally, I would have preferred to use $wpdb->prepare() but for some unknown reason
 this was not working on my local server environment. Tested on Apache 2.4.27, PHP 5.6.31, MySQL 5.7.19 and phpMyAdmin 4.7.4.
