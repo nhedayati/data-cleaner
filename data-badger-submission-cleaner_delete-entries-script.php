@@ -1,6 +1,5 @@
 <?php
-require_once '\wamp64\www\hallam\wp-load.php'; /*replace this with below if on a remote server */
-//require_once echo get_site_url(); 'wp-load.php';
+require_once echo get_site_url(); 'wp-load.php';
 global $wpdb;
 
 function delete_based_on_form_ids($id){
